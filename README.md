@@ -15,9 +15,18 @@ Prisoner's dilemma implementation simulating tournaments of the itarative prison
 
 *	**UtilityMatrix Class:** 
 	* Represents the Utility Matrix
-*	**Play Class:** Represents a game play.
+*	**Play Class:**
+	* Represents a game play.
+	* Knows the two participating players.
+	* Knows the Utility Matrix.
+	* Knows the play score.
+	* Runs the game # times.
 *	**Player Class:**
+	* Knows his strategy.
+	* Delegates to Strategy the decisions.
+	* Informs to the Stragegy the rival decisons.
 *	**PlayerStrategy Class:**
+	* Decides de decision	
 *	**Register Class:**
 Aspectes rellevants del disseny
 
